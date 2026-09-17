@@ -1,9 +1,9 @@
 [project]
 name = "langchain-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "A runnable tour of LangChain v1's core components"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.141.1",
     "langchain>=1.4.0",
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-langchain-project = "langchain_project:main"
+demo = "langchain_project.__main__:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
